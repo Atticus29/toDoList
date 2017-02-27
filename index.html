@@ -20,13 +20,29 @@
       </div>
     </div>
     <div class="add-clear-section">
-      <div class="form-group">
-        <form id="add-form">
-          <label for="submit-btn">Add item</label>
+
+      <form id="add-form">
+        <div class="form-group">
+          <label for="submit-text">Add item</label>
           <input type="text" class="form-control" id="submit-text">
-          <button type="submit" class="btn" id="add-btn">Add</button>
-        </form>
-      </div>
+        </div>
+        <!-- fix this -->
+        <!-- <div class="form-group">
+          <div class="input-group date" id="datetime-section">
+            <label for="time">Time this tasks needs to be completed</label>
+            <input type="text" id="time" class="form-control">
+            <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </div> -->
+        <button type="submit" class="btn-primary" id="add-btn">Add</button>
+      </form>
+      <form id="clear-form">
+        <div class="form-group">
+            <button type="submit" class="btn-primary" id="clear-btn">Remove completed items</button>
+        </div>
+      </form>
     </div>
   </div>
 </body>
