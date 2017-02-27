@@ -13,13 +13,11 @@ This script takes three arguments from the user (repo name, parter 1 initials, a
 
 |Behavior|Input|Output|
 |:---:|:---:|:---:|
-|Get input text from the user and save as a string variable in front end|"evil User123!!!?"|`var usrInput = "evil Usersz123!!!?"`|
-||||
-||||
-||||
-||||
-||||
-||||
+|Users can add a first item to a to-do list|"Set an alarm to remind me to check out of Epicodus"|["Set an alarm to remind me to check out of Epicodus"]|
+|Users can add an item to a list that already contains an item|"Set an alarm to remind me to check in for Epicodus"|["Set an alarm to remind me to check out of Epicodus", "Set an alarm to remind me to check in for Epicodus"]|
+|Users can indicate that a task is done|Checks box for done|Items with checks get a property of done|
+|Items with property of done are removed from list when user clicks "clear list"|User clicks "clear list"|"Done" items are removed from list|
+
 
 ## Setup/Installation Requirements
 
